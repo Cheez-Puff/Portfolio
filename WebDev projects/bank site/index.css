@@ -1,0 +1,177 @@
+* {
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+
+#navigationHeader {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    overflow: hidden;
+}
+#main-nav {
+    float: left;
+    margin-left: 10%;
+}
+#secondary-nav {
+    float: right;
+    margin-right: 10%;
+}
+#main-nav a, #secondary-nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+#main-nav a:hover, #secondary-nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+#bannerHeader {
+background-color: #1d1d1d;
+padding: 10px;
+}
+#bankLogo {
+    border: transparent;
+    border-radius: 25px;
+}
+#logo {
+    text-align: left;
+    float: left;
+}
+#bannerText {
+    color: white;
+    text-align: center;
+}
+#bannerTitle {
+    font-size: 50px;
+    font-weight: bold;
+}
+#bannerSubtitle {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+
+
+#toolsHeader {
+    background-color: #222222;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    border-top: solid rgb(109, 109, 109) 2px;
+    border-bottom: solid rgb(109, 109, 109) 2px;
+}
+#toolsContainer {
+    text-align: center;
+    padding: 20px;;
+}
+.toolLinks {
+    text-decoration: none;
+    color: white;
+    background-color: #004080;
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+#coverHeader {
+    background-image: url('./assets/cover\ image.png');
+    background-color: #80000052;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+    padding: 250px;
+    font-size: 45px;
+}
+#coverTitle, #coverSubtitle {
+    font-weight: bold;
+    text-shadow: 2px 3px 4px #000000;
+}
+
+
+
+#mainContent {
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #1d1d1d;
+}
+#introductionSection1 {
+    margin-left: 15%;
+    margin-right: 45%;
+}
+#introductionTitle1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#introductionContainer2 {
+    text-align: right;
+}
+#introductionSection2 {
+    margin-left: 45%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+#introductionTitle2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+
+
+#servicesSection {
+    padding: 5%;
+}
+#servicesContainer1, #servicesContainer2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#servicesTitle {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#personalBanking, #privateWealth, #commercialBanking, #smallBusiness, #agilityDigitalBanking {
+    text-align: center;
+    font-size: 12px;
+    width:250px;
+    height:225px;
+    padding: 5px;
+}
+.services {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#mainFooter {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+.footer-navButtons {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
