@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+}
+
+label {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+
+input {
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 10px
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+
+}
+
+#myButton {
+    font-size: 50px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.myLabels {
+    font-size: 50px;
+    margin-top: 20px;
+}

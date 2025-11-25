@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are You Old Enough To Vote?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" id="myCheckBox">
+    <label for="myCheckBox">Subscribe!</label><br>
+    
+    <div class="paymentOptions">
+        Choose Payment Method:<br>
+        <input type="radio" id="visaBtn" name="Card">
+        <label for="visaBtn">Visa</label><br>
+        <input type="radio" id="masterCardBtn" name="Card">
+        <label for="masterCardBtn">Mastercard</label><br>
+        <input type="radio" id="payPalBtn" name="Card">
+        <label for="payPalBtn">PayPal</label><br>
+    </div>
+
+    <button type="submit" id="mySubmit">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>
